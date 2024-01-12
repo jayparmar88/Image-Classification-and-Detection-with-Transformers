@@ -1,52 +1,66 @@
-# Image-Classification-and-Detection-with-Transformers :
+# Visual Transformers (ViT) for Image Understanding
 
-# Visual Transformers (ViT) Project
+## Project Overview
+Welcome to the Visual Transformers for Image Understanding project! This project explores the capabilities of Visual Transformers (ViT) in tackling various image understanding tasks. By leveraging ViT models, we aim to showcase their adaptability and effectiveness in tasks such as simple image classification, zero-shot image classification, and zero-shot object detection.
 
-## Overview
-Welcome to the Visual Transformers (ViT) project! This project explores the capabilities of ViT models for various image understanding tasks. It showcases the versatility of ViT models through examples of simple image classification, zero-shot image classification, and zero-shot object detection.
+## Purpose of the Project
+The primary purpose of this project is to demonstrate how Visual Transformers, a type of transformer architecture originally designed for natural language processing, can be applied to image-related tasks. Traditional convolutional neural networks (CNNs) have been the go-to choice for image-related tasks, but ViTs offer a new perspective by treating images as sequences of patches. This approach allows ViTs to excel in tasks beyond classification, including zero-shot learning and object detection.
 
-## Project Structure
-The project is organized into tasks, each demonstrating a specific aspect of using ViT models. Below is an overview of the project structure:
+## Usefulness and Applications
+### 1. Simple Image Classification
+- **Purpose:** Train a ViT model to classify images into predefined categories.
+- **Usefulness:** This task serves as a foundational example of using ViTs for image understanding. It is applicable in scenarios where traditional image classification is required.
 
-1. **Task 1: Image Classification - Loading Vision Transformer**
-   - Initializes the feature extractor and a pre-trained ViT model for image classification.
+### 2. Zero-Shot Image Classification
+- **Purpose:** Explore the ViT model's ability to classify images into categories it has never seen during training.
+- **Usefulness:** Demonstrates the model's capability to generalize to new classes, making it valuable in real-world situations where new categories may emerge.
 
-2. **Task 2: Image Classification - Generate Features from an Image**
-   - Extracts features from an image using the pre-trained ViT model.
+### 3. Zero-Shot Object Detection
+- **Purpose:** Localize and identify objects within images, even if the model has never encountered those objects during training.
+- **Usefulness:** Showcases the ViT model's potential for object detection in novel contexts, especially useful when dealing with rare or infrequent objects.
 
-3. **Task 3: Image Classification - Make Predictions**
-   - Makes predictions for an image using the pre-trained ViT model.
+## Project Structure and Tasks
+1. **Image Classification - Loading Vision Transformer:**
+   - Initialize the feature extractor and pre-trained ViT model for image classification.
+   - Example: 'vit-base-patch16-224'
 
-4. **Task 4: Zero-shot Image Classification - Loading Models**
-   - Loads pre-trained models for zero-shot image classification.
+2. **Image Classification - Generate Features from an Image:**
+   - Extract features from an image using the pre-trained ViT model.
 
-5. **Task 5: Zero-shot Image Classification - Prepare the Inputs**
-   - Prepares inputs for zero-shot image classification using a processor.
+3. **Image Classification - Make Predictions:**
+   - Utilize the ViT model to make predictions for the given image.
 
-6. **Task 6: Zero-shot Image Classification - Generate Predictions**
-   - Generates predictions for zero-shot image classification.
+4. **Zero-shot Image Classification - Loading Models:**
+   - Load pre-trained models designed for zero-shot image classification.
+   - Example: "openai/clip-vit-large-patch14"
 
-7. **Task 7: Zero-shot Object Detection - Loading Model**
-   - Loads pre-trained models for zero-shot object detection.
+5. **Zero-shot Image Classification - Prepare the Inputs:**
+   - Prepare inputs for zero-shot image classification using textual descriptions and an image.
 
-8. **Task 8: Zero-shot Object Detection - Prepare the Inputs for the Model**
-   - Prepares inputs for zero-shot object detection using an image and textual queries.
+6. **Zero-shot Image Classification - Generate Predictions:**
+   - Generate predictions for zero-shot image classification based on the pre-trained model and inputs.
 
-9. **Task 9: Zero-shot Object Detection - Visualize the Results**
-   - Performs zero-shot object detection and visualizes the results by adding bounding boxes and labels.
+7. **Zero-shot Object Detection - Loading Model:**
+   - Load pre-trained models for zero-shot object detection.
+   - Example: "google/owlvit-base-patch32"
 
-## Usage
-Each task is documented in its respective section within the project. To explore a specific task, navigate to the corresponding section and follow the instructions provided.
+8. **Zero-shot Object Detection - Prepare the Inputs for the Model:**
+   - Prepare inputs for zero-shot object detection using textual queries and an image.
+
+9. **Zero-shot Object Detection - Visualize the Results:**
+   - Perform zero-shot object detection on the image and visualize the results with bounding boxes and labels.
 
 ## Requirements
-Ensure you have the necessary dependencies installed before running the code. The required packages include transformers, PIL, requests, torch, and matplotlib. You can install them using the following command:
-
-```bash
-pip install transformers pillow requests torch matplotlib
-```
+- Python 3.7+
+- [Transformers](https://github.com/huggingface/transformers)
+- [PIL](https://pillow.readthedocs.io/en/stable/)
+- [Requests](https://docs.python-requests.org/en/latest/)
+- [torch](https://pytorch.org/getting-started/locally/)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgments
-- [Hugging Face Transformers](https://github.com/huggingface/transformers): Used for accessing pre-trained ViT models.
+## Credit and Acknowledgment
+- The project uses models and components from the [Hugging Face Transformers](https://github.com/huggingface/transformers) library.
+- The ViT models are based on the work of the original authors. Please refer to the respective model repositories for detailed information.
+- DataCamp - https://www.datacamp.com/code-along/image-classification-hugging-face
