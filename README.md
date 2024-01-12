@@ -62,5 +62,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Credit and Acknowledgment :
 - The project uses models and components from the [Hugging Face Transformers](https://github.com/huggingface/transformers) library.
-- The ViT models are based on the work of the original authors. Please refer to the respective model repositories for detailed information.
 - DataCamp - https://www.datacamp.com/code-along/image-classification-hugging-face
