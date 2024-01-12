@@ -20,34 +20,34 @@ The primary purpose of this project is to demonstrate how Visual Transformers, a
 - **Usefulness:** Showcases the ViT model's potential for object detection in novel contexts, especially useful when dealing with rare or infrequent objects.
 
 ## Project Structure and Tasks :
-1. **Image Classification - Loading Vision Transformer:**
+1. **Image Classification - Loading Vision Transformer :**
    - Initialize the feature extractor and pre-trained ViT model for image classification.
-   - Example: 'vit-base-patch16-224'
+   - Example: "vit-base-patch16-224"
 
-2. **Image Classification - Generate Features from an Image:**
+2. **Image Classification - Generate Features from an Image :**
    - Extract features from an image using the pre-trained ViT model.
 
-3. **Image Classification - Make Predictions:**
+3. **Image Classification - Make Predictions :**
    - Utilize the ViT model to make predictions for the given image.
 
-4. **Zero-shot Image Classification - Loading Models:**
+4. **Zero-shot Image Classification - Loading Models :**
    - Load pre-trained models designed for zero-shot image classification.
    - Example: "openai/clip-vit-large-patch14"
 
-5. **Zero-shot Image Classification - Prepare the Inputs:**
+5. **Zero-shot Image Classification - Prepare the Inputs :**
    - Prepare inputs for zero-shot image classification using textual descriptions and an image.
 
-6. **Zero-shot Image Classification - Generate Predictions:**
+6. **Zero-shot Image Classification - Generate Predictions :**
    - Generate predictions for zero-shot image classification based on the pre-trained model and inputs.
 
-7. **Zero-shot Object Detection - Loading Model:**
+7. **Zero-shot Object Detection - Loading Model :**
    - Load pre-trained models for zero-shot object detection.
    - Example: "google/owlvit-base-patch32"
 
-8. **Zero-shot Object Detection - Prepare the Inputs for the Model:**
+8. **Zero-shot Object Detection - Prepare the Inputs for the Model :**
    - Prepare inputs for zero-shot object detection using textual queries and an image.
 
-9. **Zero-shot Object Detection - Visualize the Results:**
+9. **Zero-shot Object Detection - Visualize the Results :**
    - Perform zero-shot object detection on the image and visualize the results with bounding boxes and labels.
 
 ## Requirements :
