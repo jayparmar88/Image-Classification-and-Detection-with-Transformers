@@ -1,7 +1,7 @@
 # Visual Transformers (ViT) for Image Understanding :
 
 ## Project Overview :
-Welcome to the Visual Transformers for Image Understanding project! This project explores the capabilities of Visual Transformers (ViT) in tackling various image understanding tasks. By leveraging ViT models, we aim to showcase their adaptability and effectiveness in tasks such as simple image classification, zero-shot image classification, and zero-shot object detection.
+Welcome to the Visual Transformers for Image Understanding project! This project explores the capabilities of `Visual Transformers (ViT)` in tackling various image understanding tasks. By leveraging ViT models, we aim to showcase their adaptability and effectiveness in tasks such as simple image classification, zero-shot image classification, and zero-shot object detection.
 
 ## Purpose of the Project :
 The primary purpose of this project is to demonstrate how Visual Transformers, a type of transformer architecture originally designed for natural language processing, can be applied to image-related tasks. Traditional convolutional neural networks (CNNs) have been the go-to choice for image-related tasks, but ViTs offer a new perspective by treating images as sequences of patches. This approach allows ViTs to excel in tasks beyond classification, including zero-shot learning and object detection.
