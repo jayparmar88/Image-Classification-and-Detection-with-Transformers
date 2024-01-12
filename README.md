@@ -1,12 +1,12 @@
-# Visual Transformers (ViT) for Image Understanding
+# Visual Transformers (ViT) for Image Understanding :
 
-## Project Overview
+## Project Overview :
 Welcome to the Visual Transformers for Image Understanding project! This project explores the capabilities of Visual Transformers (ViT) in tackling various image understanding tasks. By leveraging ViT models, we aim to showcase their adaptability and effectiveness in tasks such as simple image classification, zero-shot image classification, and zero-shot object detection.
 
-## Purpose of the Project
+## Purpose of the Project :
 The primary purpose of this project is to demonstrate how Visual Transformers, a type of transformer architecture originally designed for natural language processing, can be applied to image-related tasks. Traditional convolutional neural networks (CNNs) have been the go-to choice for image-related tasks, but ViTs offer a new perspective by treating images as sequences of patches. This approach allows ViTs to excel in tasks beyond classification, including zero-shot learning and object detection.
 
-## Usefulness and Applications
+## Usefulness and Applications :
 ### 1. Simple Image Classification
 - **Purpose:** Train a ViT model to classify images into predefined categories.
 - **Usefulness:** This task serves as a foundational example of using ViTs for image understanding. It is applicable in scenarios where traditional image classification is required.
@@ -19,7 +19,7 @@ The primary purpose of this project is to demonstrate how Visual Transformers, a
 - **Purpose:** Localize and identify objects within images, even if the model has never encountered those objects during training.
 - **Usefulness:** Showcases the ViT model's potential for object detection in novel contexts, especially useful when dealing with rare or infrequent objects.
 
-## Project Structure and Tasks
+## Project Structure and Tasks :
 1. **Image Classification - Loading Vision Transformer:**
    - Initialize the feature extractor and pre-trained ViT model for image classification.
    - Example: 'vit-base-patch16-224'
@@ -50,17 +50,17 @@ The primary purpose of this project is to demonstrate how Visual Transformers, a
 9. **Zero-shot Object Detection - Visualize the Results:**
    - Perform zero-shot object detection on the image and visualize the results with bounding boxes and labels.
 
-## Requirements
+## Requirements :
 - Python 3.7+
 - [Transformers](https://github.com/huggingface/transformers)
 - [PIL](https://pillow.readthedocs.io/en/stable/)
 - [Requests](https://docs.python-requests.org/en/latest/)
 - [torch](https://pytorch.org/getting-started/locally/)
 
-## License
+## License :
 This project is licensed under the [MIT License](LICENSE).
 
-## Credit and Acknowledgment
+## Credit and Acknowledgment :
 - The project uses models and components from the [Hugging Face Transformers](https://github.com/huggingface/transformers) library.
 - The ViT models are based on the work of the original authors. Please refer to the respective model repositories for detailed information.
 - DataCamp - https://www.datacamp.com/code-along/image-classification-hugging-face
